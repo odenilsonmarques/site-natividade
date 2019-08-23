@@ -1,0 +1,66 @@
+
+#Catequese{
+    margin-top: 135px;
+}
+.col-sm-3{
+    height: 270px;
+}
+#infoCatequese{
+    text-align: center;
+    background-color: #4682B4;
+}
+#infoCatequeseP{
+    text-align: center;
+    background-color: #66afe9;
+}
+h3{
+    color: #fff;
+}
+P{
+    text-align: justify;
+    color: #fff;
+    font-size: 15px;
+}
+/*o efeito abaixo, tem como propósito fazer o texto aparecer depois de 3s da pagina garregada*/
+#efeito  {
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+

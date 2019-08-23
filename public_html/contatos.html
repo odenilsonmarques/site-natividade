@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="shortcut icon" href="assets/img/church_1.png" type="image/x-icon"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/><!--a propriedade width=device-width diz que a largura da pagina é igual a do dispositivo. Já a proprieada initial-scale=1 é resposavel pelo zoo que nesse caso começa em 1-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="assets/css/estiloHeader.css"/>
+        <link rel="stylesheet" href="assets/css/estiloBody.css"/>
+        <link rel="stylesheet" href="assets/css/estiloFooter.css"/>
+        <link rel="stylesheet" href="assets/css/estiloContatos.css"/>
+        <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="assets/js/validaForm.js"></script>
+        <script type="text/javascript" src="assets/js/mensagem.js"></script>
+        <!--Sempre manter a ordem acima para que o prejeto carregue da melhor maneira-->
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <header>
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>                        
+                                </button>
+                                <a class="navbar-brand" href="index.html" style="color:#fff">COMUNIDADE<br><span>Nossa Senhora da Natividade</span></a>
+                            </div><br>
+                            <div class="collapse navbar-collapse" id="myNavbar">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="comunidade.html">Comunidade</a></li>
+                                    <li><a href="missa.html">Missa Dominical</a></li>
+                                    <li><a href="catequese.html">Catequese</a></li>
+                                    <li class="dropdown">
+                                        <a href="" class="dropdown-toggle" data-toggle="dropdown">Atividades Semanais<span class="caret"></span></a>
+                                        <ul class="dropdown-menu" style="width: 100%;text-align:left">
+                                            <li><a href="apostolado.html">Apostolado da Oração</a></li>  
+                                            <li><a href="legiao.html">Lergião de Maria</a></li>
+                                            <li><a href="liturgia.html">Lirtugia</a></li>
+                                            <li><a href="terco.html">Terços dos Homens</a></li>
+                                            <li><a href="vicentinos.html">Vicentinos</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contatos.html">Contatos</a></li>
+                                </ul>
+                            </div>
+                        </header>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container" style="opacity: 0.6;height: 450px;margin-bottom: 190px">               
+            <div class="row">
+                <article>
+                    <div class="col-sm-12" id="test">
+                        <div id="informacoesContatos">
+                            <h3><strong>CONTATOS</strong></h3><br>
+                        </div>  
+                    </div> 
+                </article>
+            </div>
+            <div class="row">
+                <article>
+                    <div class="col-sm-6" style="border">
+                        <form name="frmContato" id="frmContato">
+                            <div class="form-group">
+                                <label for="nome"><strong>Nome</strong></label>
+                                <input type="text" name="nome" id="nome" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><strong>Email</strong></label>
+                                <input type="text" name="email" id="email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="mensagem"><strong>Mensagem</strong></label>
+                                <textarea name="mensagem" id="mensagem" class="form-control" rows="4" id="comment"></textarea><br>
+                            </div>
+                            <button type="submit" value="ENVIAR" onclick=" return msgRetorno();" class="btn btn-default">ENVIAR</button>
+                        </form>
+                    </div>
+                    <div class="col-sm-6" style="border:">                        
+                        <div class="embed-responsive embed-responsive-16by9">                         
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15943.566931445072!2d-44.2136302!3d-2.5421685!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7d2d13ebe6edb4f9!2sIgreja+Nossa+Senhora+da+Natividade!5e0!3m2!1spt-BR!2sbr!4v1553612921326" width="555" height="280" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="container-fluid missaComunidade">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4" id="test">                      
+                        <div class="panel-body text-center">
+                            <strong><span class="glyphicon glyphicon-earphone" style="font-size: 30px"></span></strong><hr>
+                            <p id="panelInformações">                                 
+                                (98) 98150 - 4979<br>                                
+                                (98) 98106 - 1009                                
+                            </p>
+                        </div>                    
+                    </div>
+                    <div class="col-sm-4" id="test">                      
+                        <div class="panel-body text-center">
+                            <strong><span class="glyphicon glyphicon-map-marker" style="font-size: 30px"></span></strong><hr>
+                            <p id="panelInformações">                                 
+                                Planalto anil I, s/n <br>
+                                São Luis-MA / cep 65050-882.                            
+                            </p>
+                        </div>                    
+                    </div>
+                    <div class="col-sm-4" id="test">                      
+                        <div class="panel-body text-center">
+                            <strong><span class="glyphicon glyphicon-envelope" style="font-size: 30px"></span></strong><hr>
+                            <p id="panelInformações">                                 
+                                comunidadenatividae@gmail.com<br>                                  
+                                comunidadenatividae@gmail.com                               
+                            </p>
+                        </div>                    
+                    </div>
+                </div><br><br>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <footer>
+                        <div class="col-sm-4 col_informacoes">
+                            <h3 id="informacoes">PNSPS</h3>
+                            <a href="http://pnspscohab.blogspot.com/p/paroquia-nossasenhora-do-perpetuo.html" target="_blanck" style="text-decoration: none;color: #fff">Paróquia Nossa Senhora  do Pèrpetuo Socorro Teve Sua Fundação no Ano de 1968, Sendo Composta Por 11 Comunidades.</a>
+                        </div>
+                        <div class="col-sm-4  col_informacoes">
+                            <h3 id="informacoes">Localização</h3>
+                            A Igreja de Nossa Senhora da Natividade, Encontra-se Localizada no Planalto Anil I, São Luis-MA / Cep 65050-882.
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <h3 id="informacoes">Encontre-nos</h3><br> 
+                            <img src="assets/img/facebook.png" title="Facebook">
+                            <img src="assets/img/instagram-logo (1).png" title="Instagram">
+                            <img src="assets/img/youtube-logo.png" title="Youtube">
+                        </div><br>
+                        <div class="col-lg-12">
+                            <div class="informacao">
+                                &copy 2018 Comunidade Nossa Senhora da Natividade || by ODSystem.com
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+body{    
+    background-color: 	#FFF;
+}
+.slide-show{
+    margin-top: 140px;
+}
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    /*margin: auto;*/
+    min-height:365px;
+}
+.img-missa{
+    text-align: center;
+}
+.panel-body{
+    font-size: 16px;
+    background-color:#4682B4;
+    color: #fff;
+}
+.panel{
+    border: none;    
+}
+.eventos{
+    background-color:#4682B4;
+}
+.container-fluid{
+    background-color:#4682B4;
+    margin-top:30px;
+}
+.comunidade{
+    background-color: #fff;
+}
+.panel-heading{
+    font-size: 16px; 
+    text-align: center;
+    color: #fff;
+    font-family: monospace;
+    font-size: 21px;
+}
+.panel-heading hr{
+    border-color: #fff;
+}
+.zoom{
+    transition: transform .5s;  
+}
+.zoom:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);    
+}
+h3{
+    text-align:center;
+    color: #286090;
+    font-size: 30px;
+}
+h4{
+    font-size: 21px;
+}
+p{
+    color: #fff; 
+    text-align:justify;
+}

@@ -1,0 +1,89 @@
+
+#informacoesContatos{
+    margin-top: 150px;   
+}
+h3{
+    text-align: center;
+}
+p{
+    color: #555;
+    font-size: 17px;
+    text-align: justify;  
+}
+.missaComunidade{
+    background-color:#4682B4;
+    margin-top: -20px;
+   
+}
+#panelInformações{
+    color: #FFF;
+    
+    text-align: center;
+}
+.panel-body{
+    font-size:20px;
+}
+
+iframe{
+    width:100%;
+    height: auto;
+    border:0;    
+}
+label.error{
+    color:#4682B4;
+    font-weight:bold;
+    float:right;
+    font-size: 13px;
+    font-family:sans-serif;
+}
+label{
+    color: #4682B4;   
+}
+button{
+    font-size: 20px; 
+    font-weight: bold;
+    color: #4682B4;
+}
+
+/*o efeito abaixo, tem como propósito fazer o texto aparecer depois de 3s da pagina garregada*/
+#test  {
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}

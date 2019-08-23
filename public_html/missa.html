@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/><!--a propriedade width=device-width diz que a largura da pagina é igual a do dispositivo. Já a proprieada initial-scale=1 é resposavel pelo zoo que nesse caso começa em 1-->
+         <link rel="shortcut icon" href="assets/img/church_1.png" type="image/x-icon"/>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="assets/css/estiloHeader.css"/>
+        <link rel="stylesheet" href="assets/css/estiloBody.css"/>
+        <link rel="stylesheet" href="assets/css/estiloFooter.css"/>       
+        <link rel="stylesheet" href="assets/css/estiloMissa.css"/>
+        <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.cycle.js"></script>
+        <script type="text/javascript" src="assets/js/scriptslideshow.js"></script>
+        <!--Sempre manter a ordem acima para que o prejeto carregue da melhor maneira-->
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <header>
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>                        
+                                </button>
+                                <a class="navbar-brand" href="index.html" style="color:#fff">COMUNIDADE<br><span>Nossa Senhora da Natividade</span></a>
+                            </div><br>
+                            <div class="collapse navbar-collapse" id="myNavbar">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="comunidade.html">Comunidade</a></li>
+                                    <li><a href="missa.html">Missa Dominical</a></li>
+                                    <li><a href="catequese.html">Catequese</a></li>
+                                    <li class="dropdown">
+                                        <a href="" class="dropdown-toggle" data-toggle="dropdown">Atividades Semanais<span class="caret"></span></a>
+                                        <ul class="dropdown-menu" style="width: 100%;text-align:left">
+                                            <li><a href="apostolado.html">Apostolado da Oração</a></li>                                           
+                                            <li><a href="legiao.html">Lergião de Maria</a></li>
+                                            <li><a href="liturgia.html">Lirtugia</a></li>
+                                            <li><a href="terco.html">Terços dos Homens</a></li>
+                                            <li><a href="vicentinos.html">Vicentinos</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contatos.html">Contatos</a></li>
+                                </ul>
+                            </div>
+                        </header>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container">      
+            <div class="row">
+                <article>
+                    <div class="col-sm-12 text-center" id="efeito">
+                        <img src="assets/img/eucaristia_1.png" class="img-responsive img-circle">
+                        <div class="informacoesMissa">
+                            <h3 id="missatxt1"><strong>Santa Missa</strong></h3>
+                            <p><strong>
+                                    Na missa, os católicos celebram o sacrifício de Jesus Cristo na cruz, recordando a última ceia, 
+                                    na qual Jesus reuniu seus apóstolos, durante a páscoa do ano de sua morte. 
+                                    Normalmente, aquela ceia seguiria o ritual das ceias cultuais judaicas, 
+                                    nas quais o hospedeiro tomava um pedaço de pão, erguia-o um palmo acima da mesa e dizia uma breve oração antes de dividi-lo com todos. Na páscoa, para assegurar as graças divinas, a ceia incluía o sacrifício de um cordeiro. Jesus, porém, tomou o pão, partiu-o e disse: “Tomai, comei. Isto é o Meu Corpo que será entregue por vós”.
+                                </strong></p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <h3 id="missatxt2">Momentos  da Santa Celebração</h3><hr>
+                    <article>
+                        <div class="col-sm-9">
+                            <div class="carousel slide" id="myCarousel" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                                </ol>                           
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner" style="height:365px">
+                                    <div class="item active">
+                                        <img src="assets/img/dest4.jpg"  alt="Los Angeles" style="height: 365px">
+                                    </div>
+                                    <div class="item">
+                                        <img src="assets/img/dest7.jpg" alt="Los Angeles" height="450px" style="height: 365px" >
+                                    </div>
+                                    <div class="item">
+                                        <img src="assets/img/festejo1.jpg" alt="Los Angeles" height="450px" style="height: 365px" >
+                                    </div>
+                                    <div class="item">
+                                        <img src="assets/img/festejo2.jpg" alt="Los Angeles" height="450px" style="height: 365px" >
+                                    </div>
+                                    <div class="item">
+                                        <img src="assets/img/eucaristia_1.jpg" alt="Los Angeles" height="450px" style="height: 365px" >
+                                    </div>
+                                </div
+                                <!-- Left and right controls -->
+                                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="panel" style="border: none">
+                                <div class="img-missa">                                   
+                                    <img src="assets/img/dest4.jpg" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="panel">
+                                <div class="img-missa">
+                                    <img src="assets/img/eucaristia_1.jpg" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div><br>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <footer>
+                        <div class="col-sm-4 col_informacoes">
+                            <h3 id="informacoes">PNSPS</h3>
+                            <a href="http://pnspscohab.blogspot.com/p/paroquia-nossasenhora-do-perpetuo.html" target="_blanck" style="text-decoration: none;color: #fff">Paróquia Nossa Senhora  do Pèrpetuo Socorro Teve Sua Fundação no Ano de 1968, Sendo Composta Por 11 Comunidades.</a>
+                        </div>
+                        <div class="col-sm-4  col_informacoes">
+                            <h3 id="informacoes">Localização</h3>
+                            A Igreja de Nossa Senhora da Natividade, Encontra-se Localizada no Planalto Anil I, São Luis-MA / Cep 65050-882.
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <h3 id="informacoes">Encontre-nos</h3><br> 
+                            <img src="assets/img/facebook.png" title="Facebook">
+                            <img src="assets/img/instagram-logo (1).png" title="Instagram">
+                            <img src="assets/img/youtube-logo.png" title="Youtube">
+                        </div><br>
+                        <div class="col-lg-12">
+                            <div class="informacao">
+                                &copy 2018 Comunidade Nossa Senhora da Natividade || by ODSystem.com
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+footer {
+    margin-top: 50px;
+    color: #fff;
+    font-size: 12px;
+    text-align: justify;
+    font-family:sans-serif;
+    opacity: 0.7;
+}
+#informacoes{
+    text-align: center;
+    color: #FFF;
+    font-size: 23px;
+}
+.col_informacoes{
+    border-right: 1px solid red;
+    border-color: #fff;
+    color: #fff;
+    font-size: 15px;
+    text-align: justify;
+    
+}
+.informacao{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.6;
+}
